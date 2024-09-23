@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { useState } from 'react';
 
 
+
 // Create a custom icon for Leaflet
 const customIcon = new L.Icon({
   iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
@@ -25,10 +26,6 @@ interface Hotspot {
 }
 
 
-const fadeVariants = {
-  hidden: { opacity: 0 },     // Start with 0 opacity
-  visible: { opacity: 1 },    // Fade to 1 opacity
-};
 
 // HotspotDetails Component: Displays the image and description of the active hotspot
 const HotspotDetails: React.FC<{ activeMarker: Hotspot | null }> = ({ activeMarker }) => {

@@ -1,5 +1,6 @@
 "use client"
 
+
 const logos = [
     "images/Frame 20.png",
     "images/Frame 21.png",
@@ -30,6 +31,7 @@ const LogoMarquee = () => {
                         src={logo}
                         alt={`Logo ${index + 1}`}
                         className="h-20 sm:h-28 w-auto sm:mt-10 sm:mb-10"
+                        
                     />
                 ))}
                 {/* Duplicate the logo set here for a seamless loop */}
@@ -39,6 +41,7 @@ const LogoMarquee = () => {
                         src={logo}
                         alt={`Logo ${index + 1}`}
                         className="h-20 w-auto"
+                        
                     />
                 ))}
             </div>

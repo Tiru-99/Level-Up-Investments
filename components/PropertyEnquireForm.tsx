@@ -52,7 +52,7 @@ export default function PropertyEnquiryForm() {
   const [errors, setErrors] = useState<Errors>({});
 
   const validateForm = (): boolean => {
-    let formErrors: Errors = {};
+    const formErrors: Errors = {};
 
     if (lookingFor === "rent") {
       if (!rentData.name) formErrors.name = "Name is required";

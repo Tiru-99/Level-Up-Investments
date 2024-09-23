@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useState, useEffect } from 'react';
 import {Link} from 'react-scroll'
 
@@ -63,7 +64,7 @@ const Navbar = () => {
                 </button>
 
                 <div className="absolute left-6 top-5">
-                    <img src="/images/logoblack.png" className="h-12 w-auto" alt="Logo" />
+                    <img src="/images/logoblack.png" className="h-12 w-auto" alt="Logo"/>
                 </div>
 
                 <ul className="mt-24 ml-6">
