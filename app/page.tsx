@@ -42,7 +42,7 @@ export default function HomePage() {
                   personalized real estate services tailored to your unique needs. Based in Dubai,
                   we specialize in helping clients find exceptional properties and investment opportunities. 
                   Our goal is to make every step of your real estate journey seamless and fulfilling, providing 
-                  expert guidance, personalized attention, and complete confidentiality. Whether you're looking to 
+                  expert guidance, personalized attention, and complete confidentiality. Whether you are looking to 
                   invest or find the perfect place to call home, we are here to help you reach your goals with a focus
                   on quality and excellence.
               </div>
