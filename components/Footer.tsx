@@ -15,7 +15,7 @@ export default function Footer() {
           />
         </div>
         
-        <div className="text-center mb-4">
+        <div className="text-center mb-4" id='contact'>
           <p className="text-sm text-gray-600">
             <span className="font-semibold">Address:</span> 906, Park Regis, Business Bay, Dubai, UAE
           </p>

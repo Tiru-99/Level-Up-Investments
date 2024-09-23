@@ -31,9 +31,9 @@ export default function HomePage() {
         <Mapcomp/>
       </div>
 
-      <div className="md:flex md:justify-center px-4 pt-36 md:gap-24 bg-gray-50" id="about">
+      <div className="md:flex md:justify-center px-4 pt-36 md:gap-24 bg-gray-50" >
           <div className="max-w-xl">
-              <div className="text-5xl font-bold">
+              <div className="text-5xl font-bold" id="about-us">
                 About Us
               </div>
 

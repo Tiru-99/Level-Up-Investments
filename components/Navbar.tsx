@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -34,8 +35,8 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex gap-12 items-center md:mr-24">
-                <button className="text-white text-lg" >About Us</button>
-                <button className="text-white text-lg" >Contact</button>
+                <Link to='about-us' smooth = {true} duration={1000}><button className="text-white text-lg" >About Us</button></Link>
+                <Link to='contact' smooth ={true} duration={500}><button className="text-white text-lg" >Contact</button></Link>
             </div>
 
             {/* Placeholder for alignment */}
@@ -67,14 +68,17 @@ const Navbar = () => {
 
                 <ul className="mt-24 ml-6">
                     <li className="mb-8">
+                        <Link to='about-us' duration={1000} smooth={true}>
                         <button className="text-lg font-thin text-gray-700" onClick={toggleMenu}>
                             About Us
                         </button>
+                        </Link>
                     </li>
                     <li>
-                        <button className="text-lg font-thin text-gray-700" onClick={toggleMenu}>
+                        <Link to='contact' duration={500} smooth={true}><button className="text-lg font-thin text-gray-700" onClick={toggleMenu}>
                             Contact
                         </button>
+                        </Link>
                     </li>
                 </ul>
             </div>

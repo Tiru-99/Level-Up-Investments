@@ -48,7 +48,7 @@ const transporter = nodemailer.createTransport({
 
     const mailOptions = {
       from: `"Property Enquiry" <${process.env.GMAIL_USER}>`,
-      to: "aayushtirmanwar1234@gmail.com",
+      to: "anant@levelupinvestments.one",
       subject: subject,
       html: emailContent,
     };
