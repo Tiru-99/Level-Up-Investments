@@ -61,7 +61,7 @@ const transporter = nodemailer.createTransport({
     return NextResponse.json({ message: "Email sent successfully", content: emailContent }, { status: 200 });
   } catch (error) {
     console.error("Error in API route:", error);
-    //@ts-expect-error
-    return NextResponse.json({ error: "Failed to send email.", details: error.message }, { status: 500 });
+    
+    return NextResponse.json({ error: "Failed to send email."}, { status: 500 });
   }
 }
