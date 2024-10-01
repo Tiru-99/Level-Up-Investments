@@ -53,8 +53,8 @@ export default function HomePage() {
 
           </div>
           
-          <div className="max-w-sm mt-1 ">
-              <img src="/images/building2.jpg" className="h-[100%]" alt="Bhurj Khalifa image"></img>
+          <div className="max-w-sm mt-1 overflow-hidden ">
+              <img src="/images/building2.jpg" className="h-[100vh]" alt="Bhurj Khalifa image"></img>
           </div>
        
       </div>
