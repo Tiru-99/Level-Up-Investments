@@ -54,7 +54,7 @@ export default function HomePage() {
           </div>
           
           <div className="max-w-sm mt-1 ">
-              <img src="/images/bhurj.jpg" className="h-[100%]" alt="Bhurj Khalifa image"></img>
+              <img src="/images/building2.jpg" className="h-[100%]" alt="Bhurj Khalifa image"></img>
           </div>
        
       </div>
