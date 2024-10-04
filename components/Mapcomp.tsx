@@ -71,7 +71,7 @@ const Mapcomp: React.FC = () => {
       id: 2,
       position: [25.185321, 55.266144],
       name: 'Business Bay',
-      image: '/images/businessbay.jpg',
+      image: '/images/businessbay2.jpg',
       description:
         'Straddling Dubai Creek, Business Bay is a contemporary financial district packed with corporate high-rises, stylish apartment buildings, and swanky hotels. Dubai Water Canal has jogging and cycling tracks plus a colorful mechanical waterfall.',
     },
