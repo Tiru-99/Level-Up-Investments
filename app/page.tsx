@@ -54,7 +54,7 @@ export default function HomePage() {
           </div>
           
           <div className="max-w-sm mt-1 overflow-hidden ">
-              <img src="/images/building2.jpg" className="h-[100vh]" alt="Bhurj Khalifa image"></img>
+              <img src="/images/building2.jpg" className="h-[100vh]" style={{ flexShrink: 0 }}  alt="Bhurj Khalifa image"></img>
           </div>
        
       </div>

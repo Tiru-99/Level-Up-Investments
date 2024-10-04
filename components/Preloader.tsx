@@ -39,7 +39,7 @@ const Preloader = () => {
               LEVEL<span className="font-bold tracking-wider">UP</span>
             </h1>
             <p className="text-xl text-gray-600 tracking-wider font-semibold">INVESTMENTS</p>
-            <p className="mt-4 text-gray-600 text-lg font-semibold">Unlocking Potential, One Investment at a Time.</p>
+            <p className="mt-4 text-gray-600 text-lg font-semibold">The Art of Elevated Living</p>
 
             <p className="mt-4 text-gray-600 text-lg">{loadingProgress}% Loading</p>
             

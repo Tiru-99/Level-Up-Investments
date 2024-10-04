@@ -125,9 +125,9 @@ export default function PropertyCarousel() {
                     <p className="text-sm text-gray-600">Starts</p>
                     <p className="font-semibold">{property.price}</p>
                   </div>
-                  <button className="px-4 py-2 bg-white text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition-colors">
+                  <a href='https://wa.me/971585605980?text=I%20am%20interested%20in%20the%20Premium%20Plan%20For%20HerMark%20Press.' className="px-4 py-2 bg-white text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition-colors">
                     Book Now
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -162,9 +162,9 @@ export default function PropertyCarousel() {
                       <p className="text-sm text-gray-600">Starts</p>
                       <p className="font-semibold">{property.price}</p>
                     </div>
-                    <button className="px-4 py-2 bg-white text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition-colors">
-                      Book Now
-                    </button>
+                    <a href='https://wa.me/971585605980?text=I%20am%20interested%20in%20the%20Premium%20Plan%20For%20HerMark%20Press.' className="px-4 py-2 bg-white text-blue-600 border border-blue-600 rounded hover:bg-blue-50 transition-colors">
+                    Book Now
+                  </a>
                   </div>
                 </div>
               </div>
